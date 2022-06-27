@@ -1,13 +1,13 @@
 {
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
+    "discord.js": "^13.8.1",
     "gh-pages": "^4.0.0",
     "node.js": "^0.0.1-security"
   },
   "name": "bot",
   "description": "",
   "version": "1.0.0",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
