@@ -1,0 +1,25 @@
+{
+  "main": "app.js",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "node.js": "^0.0.1-security"
+  },
+  "name": "bot",
+  "description": "",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elFailSteve/Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elFailSteve/Bot/issues"
+  },
+  "homepage": "https://github.com/elFailSteve/Bot#readme"
+}
