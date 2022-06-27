@@ -1,3 +1,4 @@
+const Token = require('./Token.json')
 const Discord = require('discord.js')
 
 const client = new Discord.Client({
@@ -12,4 +13,10 @@ client.on('ready', () => {
     console.log("Listo")
 })
 
-client.login("ODI3NzA5NjM4NzEwOTE5MjEy.GftSlo.rDHk5MH1w23Us7JShe7BBQidCknBOZ6Jl-L87I")
+client.on('messageCreate', message => {
+    if(message.content == "h") {
+        message.channel.send("Adios")
+    }
+})
+
+client.login(Token.Token)
